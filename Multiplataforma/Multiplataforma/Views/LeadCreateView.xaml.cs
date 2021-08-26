@@ -52,5 +52,10 @@ namespace Multiplataforma.Views
             LabelMensagem.BindingContext = thisMessage;
             meuLead.Save();
         }
+
+        private void MeuConflito()
+        {
+
+        }
     }
 }
