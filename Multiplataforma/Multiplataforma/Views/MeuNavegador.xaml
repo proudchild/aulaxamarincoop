@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.Views.MeuNavegador">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <StackLayout Orientation="Horizontal" HeightRequest="50" HorizontalOptions="FillAndExpand">
+                <Button x:Name="back" IsVisible="False" Text="&lt;-" WidthRequest="50" Clicked="back_Clicked"></Button>
+                <Button x:Name="forward" IsVisible="False" Text="->" WidthRequest="50" Clicked="forward_Clicked"></Button>
+                <Entry x:Name="address" WidthRequest="150" HorizontalOptions="FillAndExpand" Placeholder="https://www.terra.com.br" TextChanged="address_TextChanged"></Entry>
+                <Button x:Name="go" Text="GO" WidthRequest="50" Clicked="go_Clicked"></Button>
+                <Button x:Name="reload" Text="R" WidthRequest="50" Clicked="reload_Clicked"></Button>
+                <ActivityIndicator x:Name="loading" WidthRequest="50" IsRunning="False"></ActivityIndicator>
+            </StackLayout>
+            <WebView x:Name="pagina" VerticalOptions="FillAndExpand" Source="" Navigated="WebView_Navigated" Navigating="WebView_Navigating"></WebView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

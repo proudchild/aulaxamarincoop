@@ -1,0 +1,14 @@
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\bin\Debug\net5.0\MyLoginView.deps.json
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\bin\Debug\net5.0\MyLoginView.dll
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\bin\Debug\net5.0\ref\MyLoginView.dll
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\bin\Debug\net5.0\MyLoginView.pdb
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\MyLoginView.csproj.AssemblyReference.cache
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\MyLoginView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\LoginView.xaml.g.cs
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\MyLoginView.AssemblyInfoInputs.cache
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\MyLoginView.AssemblyInfo.cs
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\MyLoginView.csproj.CoreCompileInputs.cache
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\XamlC.stamp
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\MyLoginView.dll
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\ref\MyLoginView.dll
+C:\Users\mitat\source\repos\Multiplataforma\MyLoginView\obj\Debug\net5.0\MyLoginView.pdb

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.Views.MeuTesteDeNavegacao"
+             Title="Entendendo a Navegação">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Order="Primary" Clicked="ToolbarItem_Clicked"></ToolbarItem>
+        <ToolbarItem Text="Delete" Order="Secondary" ></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Vamos entender a navegação em Xamarin"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

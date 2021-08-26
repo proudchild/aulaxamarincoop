@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.Views.MyListViewPage">
+    <StackLayout>
+        <SearchBar x:Name="MySearchBar" Placeholder="Procure por um Lead" HeightRequest="50" TextChanged="MySearchBar_TextChanged"></SearchBar>
+        <ListView x:Name="MyListView"
+            ItemTapped="Handle_ItemTapped"
+            Refreshing="MyListView_Refreshing"
+            IsPullToRefreshEnabled="True"
+            CachingStrategy="RecycleElement"
+            IsGroupingEnabled="True"
+            VerticalOptions="FillAndExpand">
+
+            <!--Built in Cells-->
+            <ListView.Header>
+                <ContentView>
+                    <Label Text="Meu Header"></Label>
+                </ContentView>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+
+                <DataTemplate>
+                    <TextCell Text="{Binding FirstName}"  Detail="{Binding LastName}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+            <ListView.FooterTemplate>
+                <DataTemplate>
+                    <ContentView>
+                        <Label Text="{Binding Count, StringFormat='{0} leads'}"></Label>
+                    </ContentView>
+                </DataTemplate>
+            </ListView.FooterTemplate>
+
+
+        </ListView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.Views.MyInputPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="unicorn.jpg" Aspect="AspectFit" HeightRequest="50"></Image>
+            <SearchBar x:Name="PapagaioSearch" Placeholder="Buscar na história do papagaio" TextChanged="SearchBar_TextChanged"></SearchBar>
+            <Entry x:Name="PapagaioName" Completed="PapagaioName_Completed" TextChanged="PapagaioName_TextChanged" Placeholder="Digite o nome do seu papagaio..."></Entry>
+            <Editor x:Name="PapagaioHistory" Placeholder="Conte a história do seu Papagaio!" TextChanged="PapagioHistory_TextChanged"></Editor>
+            <Label x:Name="Avaliation"></Label>
+            <Button x:Name="EvaluateHistory" Text="Avaliar História do Papagaio" Clicked="EvaluateHistory_Clicked"></Button>
+            <Label Text="Desabilitar História"></Label>
+            <Switch OnColor="Blue" ThumbColor="Aqua" IsToggled="False" Toggled="Switch_Toggled"></Switch>
+            <Label Text="Esconder Searchbar"></Label>
+            <CheckBox Color="Green" IsChecked="True" CheckedChanged="CheckBox_CheckedChanged"></CheckBox>
+            <Label x:Name="SliderSize" Text="24"></Label>
+            <Slider 
+                x:Name="PapagaioSlider" 
+                Maximum="48" 
+                Minimum="12" 
+                Value="24" 
+                BackgroundColor="#B02255" 
+                HeightRequest="50" 
+                MaximumTrackColor="Red"
+                MinimumTrackColor="Blue"
+                ValueChanged="PapagaioSlider_ValueChanged">
+                
+            </Slider>
+            <Stepper Minimum="12"
+                     Maximum="48"
+                     Value="24"
+                     Increment="2"
+                     ValueChanged="PapagaioSlider_ValueChanged"></Stepper>
+            <ProgressBar x:Name="PapagaioProgress" Progress="0.5" ></ProgressBar>
+
+            <BoxView Color="Red" BackgroundColor="Red" HeightRequest="250"  CornerRadius="25">
+            </BoxView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

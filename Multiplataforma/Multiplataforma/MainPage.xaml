@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.MainPage">
+
+    <StackLayout x:Name="StackTela">
+        <Frame BackgroundColor="#BB5500" Padding="24" CornerRadius="0">
+            <Label Text="Seja bem vindo ao Gordelícia!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Nós temos a arma para matar sua fome" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Venha Experimentar nossa cozinha extremamente gordurosa." FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Morra,  "/>
+                        <Span Text="mas morra com prazer." FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
