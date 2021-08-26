@@ -20,16 +20,17 @@ namespace Multiplataforma.Views
 
         public ObservableCollection<LeadStatus> listaLeadStatus;
 
-        public Message thisMessage = new Message() { message = "Mudando o controle de versão" };
+        public Message thisMessage = new Message() { message = "HAAAA" };
 
 
         public LeadCreateView()
         {
 
             InitializeComponent();
-            FirstName = "Vitor";
-            meuLead.LastName = " Nishida";
-
+            FirstName = "TesteS";
+            meuLead.LastName = " TesteS";
+            //Teste
+            //Teste
             BindingContext = meuLead;
 
             listaLeadStatus = new ObservableCollection<LeadStatus>()
