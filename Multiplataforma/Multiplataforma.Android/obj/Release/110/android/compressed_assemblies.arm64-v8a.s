@@ -53,7 +53,7 @@
 
 	/* 5: Multiplataforma.dll */
 	/* uncompressed_file_size */
-	.word	69120
+	.word	71168
 	/* loaded */
 	.byte	0
 	/* data */

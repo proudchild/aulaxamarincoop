@@ -49,14 +49,14 @@
 	.section	.rodata.map_aname.8,"aMS",%progbits,1
 	.type	.L.map_aname.8, %object
 .L.map_aname.8:
-	.asciz	"Multiplataforma.Android"
-	.size	.L.map_aname.8, 24
+	.asciz	"Xamarin.Google.Android.Material"
+	.size	.L.map_aname.8, 32
 
 	.section	.rodata.map_aname.9,"aMS",%progbits,1
 	.type	.L.map_aname.9, %object
 .L.map_aname.9:
-	.asciz	"Xamarin.Google.Android.Material"
-	.size	.L.map_aname.9, 32
+	.asciz	"Multiplataforma.Android"
+	.size	.L.map_aname.9, 24
 
 	.section	.rodata.map_aname.10,"aMS",%progbits,1
 	.type	.L.map_aname.10, %object

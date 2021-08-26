@@ -20,6 +20,11 @@
             <Label Style="{DynamicResource PageBackgroundColor}" Text="Meu texto estilizado"></Label>
             <Button Text="Pegar Imagem" Clicked="Button_Clicked"></Button>
             <Image x:Name="MyIMage" Source=""></Image>
+            <Entry x:Name="oneWay" Placeholder="One Way Binding" Text="{Binding Text, Source={x:Reference oneWayChild}, Mode=OneWay}"/>
+            <Entry x:Name="oneWayChild" Placeholder="One Way Binding" />
+            <Entry x:Name="twoWay" Placeholder="Two Way Binding"  Text="{Binding Text, Source={x:Reference twoWayChild}, Mode=TwoWay}"/>
+            <Entry x:Name="twoWayChild" Placeholder="Two Way Binding" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

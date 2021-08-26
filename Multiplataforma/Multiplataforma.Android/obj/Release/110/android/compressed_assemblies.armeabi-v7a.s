@@ -73,7 +73,7 @@
 
 	/* 5: Multiplataforma.dll */
 	/* uncompressed_file_size */
-	.long	69120
+	.long	71168
 	/* loaded */
 	.byte	0
 	/* data */

@@ -16,7 +16,7 @@ namespace Multiplataforma
             myCameraView = new MyCameraView();
             Instance = myCameraView;
             InitializeComponent();
-            MainPage = myCameraView;
+            MainPage = new LeadCreateView();
 
 
         }

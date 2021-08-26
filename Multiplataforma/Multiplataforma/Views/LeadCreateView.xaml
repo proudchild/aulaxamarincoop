@@ -3,23 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Multiplataforma.Views.LeadCreateView"
              xmlns:local="clr-namespace:Multiplataforma.ViewModel">
-    <ContentPage.BindingContext>
-        <local:LeadViewModel />
-    </ContentPage.BindingContext>
+
+    
+   
+    
     <ContentPage.Content>
         <StackLayout >
             <Label Text="Primeiro Nome"></Label>
-            <Entry x:Name="EntryFirstName" Text="{Binding FirstName}"></Entry>
+            <Entry x:Name="EntryFirstName" Text="{Binding FirstName, Mode=TwoWay}"></Entry>
             <Label Text="Sobrenome"></Label>
-            <Entry x:Name="EntryLastName" Text="{Binding LastName}" ></Entry>
+            <Entry x:Name="EntryLastName" Text="{Binding LastName, Mode=TwoWay}"></Entry>
             <Label Text="Celular"></Label>
-            <Entry x:Name="EntryMobilePhone" Keyboard="Telephone" Text="{Binding MobilePhone}" ></Entry>
+            <Entry x:Name="EntryMobilePhone" Keyboard="Telephone" Text="{Binding MobilePhone, Mode=TwoWay}" ></Entry>
             <Label Text="Não receber chamada"></Label>
-            <CheckBox x:Name="EntryDoNotCall" IsChecked="{Binding DoNotCall}" Color="Red"></CheckBox>
+            <CheckBox x:Name="EntryDoNotCall" IsChecked="{Binding DoNotCall, Mode=TwoWay}" Color="Red"></CheckBox>
             <Label Text="Email"></Label>
-            <Entry x:Name="EntryEmail" Keyboard="Email" Text="{Binding Email}" ></Entry>
+            <Entry x:Name="EntryEmail" Keyboard="Email" Text="{Binding Email, Mode=TwoWay}" ></Entry>
             <Label Text="Não enviar email"></Label>
-            <CheckBox x:Name="EntryDoNotEmail" IsChecked="{Binding DoNotEmail}" Color="Red"></CheckBox>
+            <CheckBox x:Name="EntryDoNotEmail" IsChecked="{Binding DoNotEmail, Mode=TwoWay}" Color="Red"></CheckBox>
             <Label Text="Status do Lead"></Label>
             <Picker 
                 x:Name="EntryStatusPicker" 
@@ -27,9 +28,14 @@
                 TitleColor="Red" 
                 ItemDisplayBinding="{Binding Label}"
                 SelectedItem="{Binding ApiName}"
-                ItemsSource="{Binding LeadStatus}">
+                ItemsSource="{Binding listaLeadStatus}">
                 
             </Picker>
+            <StackLayout x:Name="OutroBinding">
+                <Label Text="{Binding message}"></Label>
+            </StackLayout>
+
+            <Label x:Name="LabelMensagem" Text="{Binding message}"></Label>
 
             <Button x:Name="SaveLead" Text="Salvar Lead" Clicked="SaveLead_Clicked" VerticalOptions="EndAndExpand"></Button>
 
