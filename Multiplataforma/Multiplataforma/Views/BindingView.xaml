@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.Views.BindingView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="EntryOneWay" Placeholder="One Way Pai" Text="{Binding Text , Source={x:Reference EntryOneWayChild}, Mode=OneWay}"></Entry>
+            <Entry x:Name="EntryOneWayChild" Placeholder="One Way Filho"></Entry>
+            <Entry x:Name="EntryTwoWay" Placeholder="Two Way Pai" Text="{Binding Text, Source={x:Reference EntryTwoWayChild}, Mode=TwoWay}"></Entry>
+            <Entry x:Name="EntryTwoWayChild" Placeholder="Two Way Filho"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
