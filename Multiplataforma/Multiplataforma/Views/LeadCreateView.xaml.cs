@@ -20,7 +20,7 @@ namespace Multiplataforma.Views
 
         public ObservableCollection<LeadStatus> listaLeadStatus;
 
-        public Message thisMessage = new Message() { message = "HAAAA" };
+        public Message thisMessage = new Message() { message = "Lead Salvo com sucesso" };
 
 
         public LeadCreateView()
