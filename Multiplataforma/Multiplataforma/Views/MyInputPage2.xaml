@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.Views.MyInputPage2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="unicorn.jpg" x:Name="Unicorn" HeightRequest="50"></Image>
+            <Picker x:Name="SizePicker" Title="Image Size" TitleColor="Red" SelectedIndexChanged="Picker_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>100</x:String>
+                    <x:String>150</x:String>
+                    <x:String>200</x:String>
+                </Picker.Items>
+            </Picker>
+            <DatePicker x:Name="MinhaData" Format="dd/MM/yyyy dddd, MMMM" DateSelected="MinhaData_DateSelected"></DatePicker>
+            <TimePicker x:Name="MeuTimer" ></TimePicker>
+            <ActivityIndicator Color="Blue" x:Name="MyIndicator" IsRunning="True"></ActivityIndicator>
+            <WebView Source="https://www.terra.com.br" VerticalOptions="FillAndExpand" HeightRequest="150" BackgroundColor="Red" Navigated="WebView_Navigated" Navigating="WebView_Navigating"></WebView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

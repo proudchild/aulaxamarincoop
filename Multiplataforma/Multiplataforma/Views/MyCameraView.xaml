@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.Views.MyCameraView"
+             >
+    <ContentPage.Resources>
+        <Style
+               x:Key="LargeLabelStyle"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="Blue">
+            </Setter>
+            <Setter Property="FontSize"
+                    Value="40">
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Style="{DynamicResource PageBackgroundColor}" Text="Meu texto estilizado"></Label>
+            <Button Text="Pegar Imagem" Clicked="Button_Clicked"></Button>
+            <Image x:Name="MyIMage" Source=""></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

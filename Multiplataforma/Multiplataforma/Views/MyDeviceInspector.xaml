@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.Views.MyDeviceInspector">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Device Size" HorizontalOptions="Center"></Label>
+            <Label x:Name="DeviceSize" HorizontalOptions="Center" Text=""></Label>
+            <Label Text="Platform Name" HorizontalOptions="Center"></Label>
+            <Label x:Name="PlatformName" Text="" HorizontalOptions="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

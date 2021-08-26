@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cq7y4/9zq8ch8v3njp28sonEgHQw3GlwtPDLHJLRGgCggtTIPK94gjrdqzR8M8PU7tyAQVWJstk7f5+NBrul/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\MyLoginView\\MyLoginView.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mitat\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+  ],
+  "logs": []
+}

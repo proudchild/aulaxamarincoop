@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multiplataforma.Views.MyTableView">
+    <ContentPage.Content>
+        <TableView Intent="Menu" HasUnevenRows="True" >
+            <TableView.Root>
+                <TableSection Title="Minha Tabela de Rolagem">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Button Text="Meu Botao"></Button>
+                            <Button Text="Meu Botao"></Button>
+                            <Button Text="Meu Botao"></Button>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="Rolagem">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Button Text="Meu Botao"></Button>
+                            <Button Text="Meu Botao"></Button>
+                            <Button Text="Meu Botao"></Button>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="Estouro">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Button Text="Meu Botao"></Button>
+                            <Button Text="Meu Botao"></Button>
+                            <Button Text="Meu Botao"></Button>
+                            <Button Text="Meu Botao"></Button>
+                            <Button Text="Meu Botao"></Button>
+                            <Button Text="Meu Botao"></Button>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableView.Root>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>
