@@ -27,9 +27,10 @@ namespace Multiplataforma.Views
         {
 
             InitializeComponent();
-            FirstName = "TEste";
-            meuLead.LastName = "TEste2";
-
+            FirstName = "TesteS";
+            meuLead.LastName = " TesteS";
+            //Teste
+            //Teste
             BindingContext = meuLead;
 
             listaLeadStatus = new ObservableCollection<LeadStatus>()
@@ -51,6 +52,11 @@ namespace Multiplataforma.Views
             EntryFirstName.TextColor = Color.Blue;
             LabelMensagem.BindingContext = thisMessage;
             meuLead.Save();
+        }
+
+        private void MeuConflito()
+        {
+
         }
     }
 }
