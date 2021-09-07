@@ -59,7 +59,7 @@ namespace Multiplataforma.Droid
             else
             {
                 var extra = extras.GetByteArray("data");
-                App.Instance.ShowImage(extra);
+                App.Instance.ShowImage(extra); 
             }
 
         }

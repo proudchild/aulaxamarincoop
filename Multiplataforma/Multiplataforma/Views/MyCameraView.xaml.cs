@@ -27,7 +27,7 @@ namespace Multiplataforma.Views
 
         public void ShowImage(byte[] array)
         {
-            if (array == null) return;
+            if (array == null) return; 
             MyIMage.Source = ImageSource.FromStream(() => new MemoryStream(array));
         }
     }
