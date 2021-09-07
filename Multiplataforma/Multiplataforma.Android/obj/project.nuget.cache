@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b+SZkiQzgN9X/SQJrFgWV/wh0m2gby6VTa29ET30bJcLzFkD9xTHNjV822vo3iK9n1rQ38IesIi4UKDkp09N9Q==",
+  "dgSpecHash": "cRpaMSBphmcFebeCFl85yDJJlENdJezvcypU1S05jwiMLPvB6ptp8Oc20Wfb/KWIcPcTLGoLNDQL0eQkk4kB9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma.Android\\Multiplataforma.Android.csproj",
+  "projectFilePath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.Android\\Multiplataforma.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mitat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mitat\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",

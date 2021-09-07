@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iHtBgyAgptsu04uibG604kq5aDSZAmK0vp5STh23jftLrOgmMBh7M+q7PFWEY9ItMf5xSw7SDQsVH1lMFHy3lw==",
+  "dgSpecHash": "+WjpbPsn04xi/kjStFAYvto2StUyjdBDhp/q81xVud/o8HTcyHj/fx4wS2Z96W1hWOVquuEpG9Ssadc+wGhl3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj",
+  "projectFilePath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mitat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mitat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

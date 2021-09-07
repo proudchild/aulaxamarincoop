@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma.iOS\\Multiplataforma.iOS.csproj": {}
+    "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.iOS\\Multiplataforma.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma.iOS\\Multiplataforma.iOS.csproj": {
+    "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.iOS\\Multiplataforma.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma.iOS\\Multiplataforma.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.iOS\\Multiplataforma.iOS.csproj",
         "projectName": "Multiplataforma.iOS",
-        "projectPath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma.iOS\\Multiplataforma.iOS.csproj",
+        "projectPath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.iOS\\Multiplataforma.iOS.csproj",
         "packagesPath": "C:\\Users\\mitat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma.iOS\\obj\\",
+        "outputPath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj": {
-                "projectPath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj"
+              "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj": {
+                "projectPath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj": {
+    "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj",
+        "projectUniqueName": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj",
         "projectName": "Multiplataforma",
-        "projectPath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj",
+        "projectPath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj",
         "packagesPath": "C:\\Users\\mitat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma\\obj\\",
+        "outputPath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

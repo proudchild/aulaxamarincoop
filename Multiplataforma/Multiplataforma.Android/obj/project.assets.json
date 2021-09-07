@@ -2205,11 +2205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma.Android\\Multiplataforma.Android.csproj",
+      "projectUniqueName": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.Android\\Multiplataforma.Android.csproj",
       "projectName": "Multiplataforma.Android",
-      "projectPath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma.Android\\Multiplataforma.Android.csproj",
+      "projectPath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.Android\\Multiplataforma.Android.csproj",
       "packagesPath": "C:\\Users\\mitat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma.Android\\obj\\",
+      "outputPath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2230,8 +2230,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj": {
-              "projectPath": "C:\\Users\\mitat\\source\\repos\\Multiplataforma\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj"
+            "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj": {
+              "projectPath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj"
             }
           }
         }

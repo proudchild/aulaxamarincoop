@@ -16,7 +16,7 @@ namespace Multiplataforma
             myCameraView = new MyCameraView();
             Instance = myCameraView;
             InitializeComponent();
-            MainPage = new LeadCreateView();
+            MainPage = myCameraView;
 
 
         }
@@ -40,5 +40,6 @@ namespace Multiplataforma
         protected override void OnResume()
         {
         }
+
     }
 }
