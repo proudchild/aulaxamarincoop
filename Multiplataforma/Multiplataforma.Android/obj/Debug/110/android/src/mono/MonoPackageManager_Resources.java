@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"Multiplataforma.Android.dll",
 		"FormsViewGroup.dll",
 		"Multiplataforma.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.Media.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",

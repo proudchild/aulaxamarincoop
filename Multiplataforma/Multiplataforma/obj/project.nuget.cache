@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+WjpbPsn04xi/kjStFAYvto2StUyjdBDhp/q81xVud/o8HTcyHj/fx4wS2Z96W1hWOVquuEpG9Ssadc+wGhl3A==",
+  "dgSpecHash": "PI5mniz1yq+n5N1cwWR3C803Q2Bu0uPsB1n1raZSJ+aTDuvjSB8YX8INPllcpQmC4CaHmRi3mhaId2jttHCDVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma\\Multiplataforma.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mitat\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\mitat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mitat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mitat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mitat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mitat\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",

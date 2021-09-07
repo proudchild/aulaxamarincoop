@@ -36,10 +36,6 @@ C:\Users\mitat\source\repos\Multiplataforma\Multiplataforma\Multiplataforma\obj\
 C:\Users\mitat\source\repos\Multiplataforma\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Components\LoginView.xaml.g.cs
 C:\Users\mitat\source\repos\Multiplataforma\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Multiplataforma.csproj.AssemblyReference.cache
 C:\Users\mitat\source\repos\Multiplataforma\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Views\BindingView.xaml.g.cs
-C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\bin\Debug\netstandard2.0\Multiplataforma.deps.json
-C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\bin\Debug\netstandard2.0\Multiplataforma.dll
-C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\bin\Debug\netstandard2.0\ref\Multiplataforma.dll
-C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\bin\Debug\netstandard2.0\Multiplataforma.pdb
 C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Multiplataforma.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Components\LoginView.xaml.g.cs
@@ -69,6 +65,11 @@ C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug
 C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Multiplataforma.AssemblyInfoInputs.cache
 C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Multiplataforma.AssemblyInfo.cs
 C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Multiplataforma.csproj.CoreCompileInputs.cache
+C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Multiplataforma.csproj.AssemblyReference.cache
+C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\bin\Debug\netstandard2.0\Multiplataforma.deps.json
+C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\bin\Debug\netstandard2.0\Multiplataforma.dll
+C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\bin\Debug\netstandard2.0\ref\Multiplataforma.dll
+C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\bin\Debug\netstandard2.0\Multiplataforma.pdb
 C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\Multiplataforma.dll
 C:\Users\mitat\Desktop\aulaxamarincoop\Multiplataforma\Multiplataforma\obj\Debug\netstandard2.0\ref\Multiplataforma.dll

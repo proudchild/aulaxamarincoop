@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cRpaMSBphmcFebeCFl85yDJJlENdJezvcypU1S05jwiMLPvB6ptp8Oc20Wfb/KWIcPcTLGoLNDQL0eQkk4kB9Q==",
+  "dgSpecHash": "rmPStWrVMOYK7GCHDdAwy2ZYNmY1eGYgtsnVVa5sgRSt/3r2voGXxpZD80bL4TEJwrw7hjaxeCPOF2l/WF62Ng==",
   "success": true,
   "projectFilePath": "C:\\Users\\mitat\\Desktop\\aulaxamarincoop\\Multiplataforma\\Multiplataforma.Android\\Multiplataforma.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mitat\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\mitat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mitat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mitat\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
